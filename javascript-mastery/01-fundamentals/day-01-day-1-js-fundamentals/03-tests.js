@@ -1,26 +1,32 @@
-// Self-contained verification tests for the user details formatter
+// --- Day 1: Tests for User Profile Greeting ---
 
-const assert = require('assert'); // Node.js built-in assert module
-const formatUserDetails = require('./02-practical'); // Import the function to test
+const assert = require('assert');
+const generateWelcomeMessage = require('./02-practical.js');
 
-// Test Case 1: Verify output for a standard user
-let result1 = formatUserDetails("Alice", 30, false);
-assert.strictEqual(result1, "Name: Alice, Age: 30, Role: Standard User.", "Test Case 1 Failed: Standard user output is incorrect.");
-console.log("Test Case 1 Passed: Standard user.");
+console.log('Running tests for generateWelcomeMessage...');
 
-// Test Case 2: Verify output for an administrator user
-let result2 = formatUserDetails("Bob", 45, true);
-assert.strictEqual(result2, "Name: Bob, Age: 45, Role: Administrator.", "Test Case 2 Failed: Administrator user output is incorrect.");
-console.log("Test Case 2 Passed: Administrator user.");
+// Test Case 1: Standard premium user
+const premiumUserMessage = generateWelcomeMessage("Charlie", 40, true);
+const expectedPremium = "Hello, Charlie! You are 40 years old. As a premium member, you have exclusive access.";
+assert.strictEqual(premiumUserMessage, expectedPremium, "Test Case 1 Failed: Premium user message incorrect");
+console.log('Test 1 Passed: Premium user');
 
-// Test Case 3: Verify output with different age and status
-let result3 = formatUserDetails("Charlie", 18, false);
-assert.strictEqual(result3, "Name: Charlie, Age: 18, Role: Standard User.", "Test Case 3 Failed: Different age user output is incorrect.");
-console.log("Test Case 3 Passed: Different age, standard user.");
+// Test Case 2: Standard non-premium user
+const basicUserMessage = generateWelcomeMessage("Diana", 22, false);
+const expectedBasic = "Hello, Diana! You are 22 years old. Upgrade to premium for more features!";
+assert.strictEqual(basicUserMessage, expectedBasic, "Test Case 2 Failed: Basic user message incorrect");
+console.log('Test 2 Passed: Basic user');
 
-// Test Case 4: Another admin scenario
-let result4 = formatUserDetails("Diana", 28, true);
-assert.strictEqual(result4, "Name: Diana, Age: 28, Role: Administrator.", "Test Case 4 Failed: Another admin output is incorrect.");
-console.log("Test Case 4 Passed: Another admin user.");
+// Test Case 3: Edge case - young premium user
+const youngPremiumUserMessage = generateWelcomeMessage("Eve", 18, true);
+const expectedYoungPremium = "Hello, Eve! You are 18 years old. As a premium member, you have exclusive access.";
+assert.strictEqual(youngPremiumUserMessage, expectedYoungPremium, "Test Case 3 Failed: Young premium user message incorrect");
+console.log('Test 3 Passed: Young premium user');
 
-console.log("\nAll tests passed successfully!");
+// Test Case 4: Edge case - older non-premium user
+const olderBasicUserMessage = generateWelcomeMessage("Frank", 65, false);
+const expectedOlderBasic = "Hello, Frank! You are 65 years old. Upgrade to premium for more features!";
+assert.strictEqual(olderBasicUserMessage, expectedOlderBasic, "Test Case 4 Failed: Older basic user message incorrect");
+console.log('Test 4 Passed: Older basic user');
+
+console.log('\nAll tests passed!');
