@@ -1,33 +1,30 @@
-// declare and assign variables
-let userName = "Alice";
-const userAge = 30; // const for values that don't change
-let isStudent = false;
+// Day 1: Exploring fundamental JavaScript concepts
 
-console.log("Hello, " + userName);
-console.log("Age:", userAge);
-console.log("Is student?", isStudent);
+// 1. Variables: let and const
+let userName = "Alice"; // A variable whose value can be reassigned
+const userAge = 30; // A constant variable, cannot be reassigned
 
-// basic arithmetic operations
-let num1 = 10;
-let num2 = 5;
-let sum = num1 + num2;
-let product = num1 * num2;
+console.log("User Name:", userName);
+console.log("User Age:", userAge);
 
-console.log("Sum:", sum);
-console.log("Product:", product);
+userName = "Bob"; // Reassigning let variable
+console.log("Updated User Name:", userName);
 
-// reassigning a let variable
-userName = "Bob";
-console.log("Updated user name:", userName);
+// userAge = 31; // This would cause an error: Assignment to constant variable.
 
-// string concatenation
-let greeting = "Welcome, " + userName + "!";
-console.log(greeting);
+// 2. Basic Data Types
+// Number
+let price = 99.99;
+let quantity = 5;
+let total = price * quantity; // Arithmetic operation
+console.log("Total price:", total);
 
-// template literals for better string handling
-let personalGreeting = `Hello ${userName}, you are ${userAge} years old.`;
-console.log(personalGreeting);
+// String
+let greeting = "Hello, ";
+let message = greeting + userName + "!"; // String concatenation
+console.log("Message:", message);
 
-// basic comparison
-let isAdult = userAge >= 18;
-console.log("Is adult?", isAdult);
+// Boolean
+let isActive = true;
+let hasPermission = false;
+console.log("Is active user?",
