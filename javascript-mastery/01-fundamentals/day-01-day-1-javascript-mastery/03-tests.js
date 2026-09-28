@@ -1,47 +1,56 @@
+// Day 1: Simple tests for the user greeting function
+
 const assert = require('assert');
-const createUserProfile = require('./02-practical.js');
+const generateUserGreeting = require('./02-practical');
 
-console.log('Running user profile tests...');
+console.log('Running tests for generateUserGreeting...');
 
-// Test Case 1: Valid input for a typical user
-const profile1 = createUserProfile("Alice", 30, "Paris");
-assert.strictEqual(typeof profile1, 'string', 'Test 1 Failed: Should return a string');
-assert.ok(profile1.includes('Name: Alice'), 'Test 1 Failed: Name mismatch');
-assert.ok(profile1.includes('Age: 30 years old'), 'Test 1 Failed: Age mismatch');
-assert.ok(profile1.includes('City: Paris'), 'Test 1 Failed: City mismatch');
-assert.ok(profile1.includes('Estimated birth year: 1996'), 'Test 1 Failed: Birth year calculation incorrect');
-console.log('  Passed: Valid profile for Alice.');
+// Test Case 1: Standard valid inputs
+let result1 = generateUserGreeting("Alice", 28, "New York");
+let expected1 = "Hello, Alice! You are 28 years old and live in New York. Welcome!";
+assert.strictEqual(result1, expected1, 'Test Case 1 Failed: Should return correct greeting for valid inputs.');
+console.log('Test Case 1 Passed.');
 
-// Test Case 2: Another valid input
-const profile2 = createUserProfile("Bob", 22, "Berlin");
-assert.ok(profile2.includes('Name: Bob'), 'Test 2 Failed: Name mismatch');
-assert.ok(profile2.includes('Age: 22 years old'), 'Test 2 Failed: Age mismatch');
-assert.ok(profile2.includes('Estimated birth year: 2004'), 'Test 2 Failed: Birth year calculation incorrect');
-console.log('  Passed: Valid profile for Bob.');
+// Test Case 2: Different valid inputs
+let result2 = generateUserGreeting("Bob", 35, "London");
+let expected2 = "Hello, Bob! You are 35 years old and live in London. Welcome!";
+assert.strictEqual(result2, expected2, 'Test Case 2 Failed: Should return correct greeting for different valid inputs.');
+console.log('Test Case 2 Passed.');
 
-// Test Case 3: Invalid age type (string instead of number)
-const profile3 = createUserProfile("Charlie", "twenty", "Rome");
-assert.strictEqual(profile3, 'Error: Invalid input types.', 'Test 3 Failed: Should handle invalid age type');
-console.log('  Passed: Handles invalid age type.');
+// Test Case 3: Empty name string
+let result3 = generateUserGreeting("", 25, "Paris");
+let expected3 = "Hello there! I couldn't get your name.";
+assert.strictEqual(result3, expected3, 'Test Case 3 Failed: Should handle empty name string.');
+console.log('Test Case 3 Passed.');
 
-// Test Case 4: Invalid age value (zero)
-const profile4 = createUserProfile("David", 0, "Tokyo");
-assert.strictEqual(profile4, 'Error: Age must be positive.', 'Test 4 Failed: Should handle zero age');
-console.log('  Passed: Handles zero age.');
+// Test Case 4: Invalid age (zero)
+let result4 = generateUserGreeting("Charlie", 0, "Berlin");
+let expected4 = "Hello, Charlie! Your age seems invalid.";
+assert.strictEqual(result4, expected4, 'Test Case 4 Failed: Should handle zero age.');
+console.log('Test Case 4 Passed.');
 
-// Test Case 5: Invalid age value (negative)
-const profile5 = createUserProfile("Eve", -5, "Sydney");
-assert.strictEqual(profile5, 'Error: Age must be positive.', 'Test 5 Failed: Should handle negative age');
-console.log('  Passed: Handles negative age.');
+// Test Case 5: Invalid age (negative)
+let result5 = generateUserGreeting("David", -5, "Rome");
+let expected5 = "Hello, David! Your age seems invalid.";
+assert.strictEqual(result5, expected5, 'Test Case 5 Failed: Should handle negative age.');
+console.log('Test Case 5 Passed.');
 
-// Test Case 6: Invalid name type (number instead of string)
-const profile6 = createUserProfile(123, 25, "Madrid");
-assert.strictEqual(profile6, 'Error: Invalid input types.', 'Test 6 Failed: Should handle invalid name type');
-console.log('  Passed: Handles invalid name type.');
+// Test Case 6: Empty city string
+let result6 = generateUserGreeting("Eve", 22, "");
+let expected6 = "Hello, Eve! Age 22. Your city is unknown.";
+assert.strictEqual(result6, expected6, 'Test Case 6 Failed: Should handle empty city string.');
+console.log('Test Case 6 Passed.');
 
-// Test Case 7: Invalid city type (number instead of string)
-const profile7 = createUserProfile("Frank", 40, 789);
-assert.strictEqual(profile7, 'Error: Invalid input types.', 'Test 7 Failed: Should handle invalid city type');
-console.log('  Passed: Handles invalid city type.');
+// Test Case 7: Null name (type check)
+let result7 = generateUserGreeting(null, 30, "Tokyo");
+let expected7 = "Hello there! I couldn't get your name.";
+assert.strictEqual(result7, expected7, 'Test Case 7 Failed: Should handle null name.');
+console.log('Test Case 7 Passed.');
 
-console.log('\nAll user profile tests passed successfully!');
+// Test Case 8: Undefined age (type check)
+let result8 = generateUserGreeting("Frank", undefined, "Sydney");
+let expected8 = "Hello, Frank! Your age seems invalid.";
+assert.strictEqual(result8, expected8, 'Test Case 8 Failed: Should handle undefined age.');
+console.log('Test Case 8 Passed.');
+
+console.log('\nAll tests passed!');
