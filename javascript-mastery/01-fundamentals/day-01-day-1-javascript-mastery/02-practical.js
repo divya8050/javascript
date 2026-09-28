@@ -1,32 +1,40 @@
-// function to create a simple user profile summary
-function createUserProfile(name, age, city) {
-  // basic input validation for robustness
-  if (typeof name !== 'string' || typeof age !== 'number' || typeof city !== 'string') {
-    return "Error: Invalid input types.";
+// Day 1: Practical application - a simple user greeter
+
+/**
+ * Generates a personalized greeting message for a user.
+ * @param {string} name - The user's name.
+ * @param {number} age - The user's age.
+ * @param {string} city - The user's city.
+ * @returns {string} A personalized greeting string.
+ */
+function generateUserGreeting(name, age, city) {
+  // Basic validation for inputs, keeping it simple for Day 1
+  if (typeof name !== 'string' || name.trim() === '') {
+    return "Hello there! I couldn't get your name.";
   }
-  if (age <= 0) {
-    return "Error: Age must be positive.";
+  if (typeof age !== 'number' || age <= 0) {
+    return `Hello, ${name}! Your age seems invalid.`;
+  }
+  if (typeof city !== 'string' || city.trim() === '') {
+    return `Hello, ${name}! Age ${age}. Your city is unknown.`;
   }
 
-  const currentYear = 2026; // using the current practice year
-  const birthYear = currentYear - age;
-
-  let profileSummary = `Name: ${name}\n`;
-  profileSummary += `Age: ${age} years old\n`;
-  profileSummary += `City: ${city}\n`;
-  profileSummary += `Estimated birth year: ${birthYear}`; // simple calculation
-
-  return profileSummary;
+  // Using template literals for easy string formatting
+  return `Hello, ${name}! You are ${age} years old and live in ${city}. Welcome!`;
 }
 
-// example usage
-const aliceProfile = createUserProfile("Alice Smith", 28, "New York");
-console.log("--- Alice's Profile ---");
-console.log(aliceProfile);
+// Example usage:
+const user1Name = "Alice";
+const user1Age = 28;
+const user1City = "New York";
+const user1Greeting = generateUserGreeting(user1Name, user1Age, user1City);
+console.log(user1Greeting);
 
-const bobProfile = createUserProfile("Bob Johnson", 35, "London");
-console.log("\n--- Bob's Profile ---");
-console.log(bobProfile);
+const user2Name = "Bob";
+const user2Age = 35;
+const user2City = "London";
+const user2Greeting = generateUserGreeting(user2Name, user2Age, user2City);
+console.log(user2Greeting);
 
-// export for testing purposes
-module.exports = createUserProfile;
+// Exporting the function for testing
+module.exports = generateUserGreeting;
