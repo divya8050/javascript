@@ -9,6 +9,7 @@ Automated daily coding problem solutions, algorithm implementations, and softwar
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-09-29 | [Operators and Control Flow Basics](javascript-mastery/01-fundamentals/day-02-operators-control-flow-basics/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/72273c53426b660f1f917fc9e21bbee7d5028827) |
 | 2026-09-28 | [Trie (Prefix Tree) Implementation](daily-practice/2026/09/2026-09-28_trie-prefix-tree.ts) | `typescript` | `Medium` | [Commit](https://github.com/divya8050/javascript/commit/168310f8c83a8671e8375c98824000f64f5d8d4f) |
 
 ---
