@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-03 | [JavaScript Functions](javascript-mastery/01-fundamentals/day-06-javascript-functions-basics/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/5c274ede9739e5cfa70fc9912208a66b167ead81) |
 | 2026-10-02 | [Functions - Declaration, Expression, Scope, and Return Values](javascript-mastery/01-fundamentals/day-05-functions-basics-day-5/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/dcf944b3c347370ddc16156968fda027e462cfa3) |
 | 2026-10-01 | [Day 4: Loops in JavaScript](javascript-mastery/01-fundamentals/day-04-day-4-loops-in-javascript/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/ae70c355341b40479710de8aa7785eb756e24b4d) |
 | 2026-09-30 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-03-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/a033d8f9b5015a1e17c4c3ffe8b4c3c5f13df027) |
