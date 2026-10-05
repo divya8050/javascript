@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-05 | [JavaScript Objects](javascript-mastery/01-fundamentals/day-08-javascript-objects-basics/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/1135afe05fa387be1c1907f8731241e3eebff99c) |
 | 2026-10-04 | [Functions: Declaration, Expression, Arrow](javascript-mastery/01-fundamentals/day-07-functions-declaration-expression-arrow/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/a5eac40fe92d73c3df3e4717b026f5100f9d711f) |
 | 2026-10-03 | [JavaScript Functions](javascript-mastery/01-fundamentals/day-06-javascript-functions-basics/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/5c274ede9739e5cfa70fc9912208a66b167ead81) |
 | 2026-10-02 | [Functions - Declaration, Expression, Scope, and Return Values](javascript-mastery/01-fundamentals/day-05-functions-basics-day-5/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/dcf944b3c347370ddc16156968fda027e462cfa3) |
