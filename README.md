@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-10 | [Working with Objects: Properties, Methods, and 'this'](javascript-mastery/01-fundamentals/day-13-objects-properties-methods-this/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/c10ce970cba176bd1861e420c15c7e895855d133) |
 | 2026-10-09 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-12-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/5818fa0c96b4d66bb644cc95bf4e99e0fadaac1e) |
 | 2026-10-08 | [JavaScript Classes (ES6)](javascript-mastery/01-fundamentals/day-11-javascript-classes-es6/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/12917af36a36c7a34e4b4ff68a4e2e1233224235) |
 | 2026-10-07 | [Functions: Declaration, Expression, Arrow, and Scope](javascript-mastery/01-fundamentals/day-10-javascript-functions-basics/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/5750b733e89d1c2212773ed2af4b3333773bb366) |
