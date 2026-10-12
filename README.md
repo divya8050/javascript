@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-12 | [Error Handling: try-catch and custom errors](javascript-mastery/01-fundamentals/day-15-error-handling-try-catch-throw/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/af01ad5e4116a79ac35314b0253cc183f022e601) |
 | 2026-10-11 | [Object-Oriented Basics: Classes and 'this'](javascript-mastery/01-fundamentals/day-14-object-oriented-basics-classes-this/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/8310a496deb63d27b54e016ded09816ae05a0970) |
 | 2026-10-10 | [Working with Objects: Properties, Methods, and 'this'](javascript-mastery/01-fundamentals/day-13-objects-properties-methods-this/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/c10ce970cba176bd1861e420c15c7e895855d133) |
 | 2026-10-09 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-12-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/5818fa0c96b4d66bb644cc95bf4e99e0fadaac1e) |
