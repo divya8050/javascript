@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-17 | [Closures and Private State](javascript-mastery/01-fundamentals/day-20-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/8bd1b1ae908ee33059b69d87c90bb335fa84fe8a) |
 | 2026-10-16 | [Error Handling with try...catch and Custom Errors](javascript-mastery/01-fundamentals/day-19-error-handling-try-catch-custom-errors/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7fbc07b7f74a4446e00d6e170a1ae137ba5e2955) |
 | 2026-10-15 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-18-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/fb2ba893f274cd05388d1178a8051f58e52281c8) |
 | 2026-10-14 | [Closures and Scope](javascript-mastery/01-fundamentals/day-17-closures-and-scope/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/2b369af3c2b2410bba387be3646c64577bb9b838) |
