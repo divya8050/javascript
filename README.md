@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-19 | [Array Reduce for Data Transformation](javascript-mastery/01-fundamentals/day-22-array-reduce-data-transformation/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/8040bf9c14459d42a8305f1d1b029c4ab8291acf) |
 | 2026-10-18 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-21-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/dbc706e176180e7f5f4c150729ada77870edcb31) |
 | 2026-10-17 | [Closures and Private State](javascript-mastery/01-fundamentals/day-20-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/8bd1b1ae908ee33059b69d87c90bb335fa84fe8a) |
 | 2026-10-16 | [Error Handling with try...catch and Custom Errors](javascript-mastery/01-fundamentals/day-19-error-handling-try-catch-custom-errors/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7fbc07b7f74a4446e00d6e170a1ae137ba5e2955) |
