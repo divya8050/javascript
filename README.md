@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-22 | [The 'this' Keyword and Arrow Functions](javascript-mastery/01-fundamentals/day-25-this-keyword-arrow-functions/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/e65dd3d47956940ec312e8916e99a302c4cc6283) |
 | 2026-10-21 | [Error Handling in JavaScript](javascript-mastery/01-fundamentals/day-24-javascript-error-handling/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/60e291ffd24e4e6d2efef18514d4470f7c24f580) |
 | 2026-10-20 | [Promises and Async/Await](javascript-mastery/02-async-mastery/day-23-promises-async-await/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/aa98c16632d2e350d3cc75165408b8065bcf6806) |
 | 2026-10-19 | [Array Reduce for Data Transformation](javascript-mastery/01-fundamentals/day-22-array-reduce-data-transformation/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/8040bf9c14459d42a8305f1d1b029c4ab8291acf) |
