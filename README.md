@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-24 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-27-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/6ee16a236d5ce0b5bc7c8bd87c6e6466cdcb7ca5) |
 | 2026-10-23 | [Array Methods: map, filter, reduce](javascript-mastery/01-fundamentals/day-26-array-methods-map-filter-reduce/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/44f9079c78cffc30667b9cd5ab2c640b35afaa47) |
 | 2026-10-22 | [The 'this' Keyword and Arrow Functions](javascript-mastery/01-fundamentals/day-25-this-keyword-arrow-functions/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/e65dd3d47956940ec312e8916e99a302c4cc6283) |
 | 2026-10-21 | [Error Handling in JavaScript](javascript-mastery/01-fundamentals/day-24-javascript-error-handling/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/60e291ffd24e4e6d2efef18514d4470f7c24f580) |
