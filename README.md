@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-10-25 | [Execution Context and Scope](javascript-mastery/01-fundamentals/day-28-01-execution-context-and-scope/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/e8e2497d8ac00a5e5a5202090acb1c914c8d9bf5) |
 | 2026-10-24 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-27-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/6ee16a236d5ce0b5bc7c8bd87c6e6466cdcb7ca5) |
 | 2026-10-23 | [Array Methods: map, filter, reduce](javascript-mastery/01-fundamentals/day-26-array-methods-map-filter-reduce/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/44f9079c78cffc30667b9cd5ab2c640b35afaa47) |
 | 2026-10-22 | [The 'this' Keyword and Arrow Functions](javascript-mastery/01-fundamentals/day-25-this-keyword-arrow-functions/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/e65dd3d47956940ec312e8916e99a302c4cc6283) |
