@@ -1,51 +1,86 @@
-/**
- * Day 38: Closures - Tests
- * Date: 2026-11-04
- */
-
 const assert = require('assert');
+const { createGreeter, createCounter } = require('./01-core.js');
+const createLogger = require('./02-practical.js');
 
-// Import functions from core and practical files
-const { createGreeter } = require('./01-core.js');
-const { createCounter } = require('./02-practical.js');
+console.log('Starting closure practice tests...');
 
-// --- Test 01-core.js: Closure for private state --- 
-console.log('Running tests for 01-core.js (createGreeter)');
+// Test 01-core.js: createGreeter
+try {
+  const sayHello = createGreeter('Hello');
+  const sayHi = createGreeter('Hi');
 
-const greetMorning = createGreeter('Good Morning');
-const greetEvening = createGreeter('Good Evening');
+  assert.strictEqual(sayHello('Alice'), 'Hello, Alice!', 'Greeter (Hello) did not work as expected.');
+  assert.strictEqual(sayHi('Bob'), 'Hi, Bob!', 'Greeter (Hi) did not work as expected.');
+  assert.notStrictEqual(sayHello('Charlie'), 'Hi, Charlie!', 'Greeters should maintain independent states.');
+  console.log('✅ createGreeter tests passed.');
+} catch (error) {
+  console.error('❌ createGreeter tests failed:', error.message);
+}
 
-assert.strictEqual(greetMorning('Alice'), 'Good Morning, Alice!', 'Test Case 1 Failed: Morning greeting for Alice');
-assert.strictEqual(greetEvening('Bob'), 'Good Evening, Bob!', 'Test Case 2 Failed: Evening greeting for Bob');
+// Test 01-core.js: createCounter
+try {
+  const counter1 = createCounter();
+  assert.strictEqual(counter1.getCount(), 0, 'Initial count should be 0.');
+  assert.strictEqual(counter1.increment(), 1, 'Increment did not return 1.');
+  assert.strictEqual(counter1.increment(), 2, 'Increment did not return 2.');
+  assert.strictEqual(counter1.decrement(), 1, 'Decrement did not return 1.');
+  assert.strictEqual(counter1.getCount(), 1, 'Final count should be 1.');
 
-// Verify independence of closures
-const anotherMorning = createGreeter('Good Morning');
-assert.strictEqual(anotherMorning('Charlie'), 'Good Morning, Charlie!', 'Test Case 3 Failed: Another morning greeter instance');
+  const counter2 = createCounter(); // New independent counter
+  assert.strictEqual(counter2.getCount(), 0, 'New counter should start at 0.');
+  counter2.increment();
+  assert.strictEqual(counter2.getCount(), 1, 'New counter incremented independently.');
+  assert.strictEqual(counter1.getCount(), 1, 'Old counter should remain unaffected.');
 
-console.log('All 01-core.js tests passed!');
+  console.log('✅ createCounter tests passed.');
+} catch (error) {
+  console.error('❌ createCounter tests failed:', error.message);
+}
 
-// --- Test 02-practical.js: Closure for counter --- 
-console.log('\nRunning tests for 02-practical.js (createCounter)');
+// Test 02-practical.js: createLogger
+try {
+  let capturedLogs = [];
+  const originalConsoleLog = console.log;
+  // Temporarily override console.log to capture output for testing
+  console.log = (...args) => capturedLogs.push(args.join(' '));
 
-const counterA = createCounter();
-const counterB = createCounter();
+  // Test logger with default 'info' level
+  const infoLogger = createLogger();
+  infoLogger.info('This is an info message.');
+  infoLogger.debug('This debug message should be filtered.');
+  infoLogger.warn('This is a warning.');
 
-// Test counterA
-assert.strictEqual(counterA.getCount(), 0, 'Test Case 4 Failed: Counter A initial count');
-assert.strictEqual(counterA.increment(), 1, 'Test Case 5 Failed: Counter A increment once');
-assert.strictEqual(counterA.increment(), 2, 'Test Case 6 Failed: Counter A increment twice');
-assert.strictEqual(counterA.getCount(), 2, 'Test Case 7 Failed: Counter A get final count');
-assert.strictEqual(counterA.decrement(), 1, 'Test Case 8 Failed: Counter A decrement once');
-assert.strictEqual(counterA.getCount(), 1, 'Test Case 9 Failed: Counter A get count after decrement');
+  assert.strictEqual(capturedLogs.length, 2, 'Info logger should have logged 2 messages.');
+  assert.ok(capturedLogs.includes('[INFO] This is an info message.'), 'Info message missing.');
+  assert.ok(capturedLogs.includes('[WARN] This is a warning.'), 'Warning message missing.');
+  capturedLogs = []; // Clear for next test
 
-// Test counterB - ensure it's independent
-assert.strictEqual(counterB.getCount(), 0, 'Test Case 10 Failed: Counter B initial count');
-assert.strictEqual(counterB.increment(), 1, 'Test Case 11 Failed: Counter B increment once');
-assert.strictEqual(counterB.getCount(), 1, 'Test Case 12 Failed: Counter B get final count');
+  // Test logger with 'debug' level
+  const debugLogger = createLogger('debug');
+  debugLogger.debug('A debug message.');
+  debugLogger.info('An info message.');
+  assert.strictEqual(capturedLogs.length, 2, 'Debug logger should have logged 2 messages.');
+  assert.ok(capturedLogs.includes('[DEBUG] A debug message.'), 'Debug message missing.');
+  capturedLogs = [];
 
-// Further check independence
-assert.strictEqual(counterA.getCount(), 1, 'Test Case 13 Failed: Counter A should remain independent');
+  // Test logger with 'error' level
+  const errorLogger = createLogger('error');
+  errorLogger.info('This info should be filtered.');
+  errorLogger.warn('This warning should be filtered.');
+  errorLogger.error('An error message.');
+  assert.strictEqual(capturedLogs.length, 1, 'Error logger should have logged 1 message.');
+  assert.ok(capturedLogs.includes('[ERROR] An error message.'), 'Error message missing.');
+  capturedLogs = [];
 
-console.log('All 02-practical.js tests passed!');
+  // Restore original console.log
+  console.log = originalConsoleLog;
+  console.log('✅ createLogger tests passed.');
+} catch (error) {
+  // Ensure console.log is restored even if tests fail
+  if (console.log !== originalConsoleLog) {
+    console.log = originalConsoleLog;
+  }
+  console.error('❌ createLogger tests failed:', error.message);
+}
 
-console.log('\nAll closure practice tests completed successfully!');
+console.log('All closure practice tests finished.');
