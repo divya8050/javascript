@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-05 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-39-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7c5dfd34e4ba09728ddc14e27e73c1c066960c33) |
 | 2026-11-04 | [Closures](javascript-mastery/01-fundamentals/day-38-javascript-closures/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/5e98f23a2cd86c464759405716e0d395acdcbcda) |
 | 2026-10-27 | [Understanding 'this', call, apply, and bind](javascript-mastery/01-fundamentals/day-30-this-call-apply-bind-mastery/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/3448a972b027b813d12a1757b5ecf131c6614ec2) |
 | 2026-10-26 | [Understanding 'this' and Explicit Binding (call, apply, bind)](javascript-mastery/01-fundamentals/day-29-this-and-explicit-binding/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/c0bf49f847ca61b88a11d7b76deb52887725fe42) |
