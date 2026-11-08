@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-08 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-42-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/0a2306591228ef8ae5fbb4102f1e3a7ee7a40e90) |
 | 2026-11-07 | [Closures and Private State](javascript-mastery/01-fundamentals/day-41-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/8546fff9379678c4c4470b6f2bc6e14829795f2b) |
 | 2026-11-06 | [Execution Context and Scope](javascript-mastery/01-fundamentals/day-40-01-execution-context-and-scope/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/b2c943290c951bd084c7b05cd6f46239c65b7378) |
 | 2026-11-05 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-39-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7c5dfd34e4ba09728ddc14e27e73c1c066960c33) |
