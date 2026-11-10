@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-10 | [JavaScript Classes and Instances](javascript-mastery/01-fundamentals/day-44-js-classes-and-instances/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/ee743b6a0083f0f669ff48070fa39e6b6e5281f7) |
 | 2026-11-09 | [Array Iteration Methods (map, filter, reduce)](javascript-mastery/01-fundamentals/day-43-array-iteration-methods/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/67004ba79202cdbc579319805b991d840e19e905) |
 | 2026-11-08 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-42-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/0a2306591228ef8ae5fbb4102f1e3a7ee7a40e90) |
 | 2026-11-07 | [Closures and Private State](javascript-mastery/01-fundamentals/day-41-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/8546fff9379678c4c4470b6f2bc6e14829795f2b) |
