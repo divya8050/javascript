@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-13 | [Map and Set Objects](javascript-mastery/01-fundamentals/day-47-map-set-objects/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/b9a3d657d0a4b96e25c0726d01376264a485648d) |
 | 2026-11-12 | [Execution Context and Scope](javascript-mastery/01-fundamentals/day-46-01-execution-context-and-scope/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/ebeec4b21b4eace38e8475736c03ced5139dfe68) |
 | 2026-11-11 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-45-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7c2a7dd45cc203be8b384486709df6f96e6431bf) |
 | 2026-11-10 | [JavaScript Classes and Instances](javascript-mastery/01-fundamentals/day-44-js-classes-and-instances/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/ee743b6a0083f0f669ff48070fa39e6b6e5281f7) |
