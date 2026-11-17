@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-17 | [Object Iteration and Transformation](javascript-mastery/01-fundamentals/day-51-object-iteration-transformation/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/856f76267c3ced3db4e651be09cf1639605022b4) |
 | 2026-11-16 | [Closures and Private State](javascript-mastery/01-fundamentals/day-50-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/cf01abd568051c1adbdc28eb546ad0f3b0b686e6) |
 | 2026-11-15 | [JavaScript 'this' keyword and explicit binding](javascript-mastery/01-fundamentals/day-49-js-this-keyword-explicit-binding/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/803f140fdc50c4b618728232db24e5d13f7260db) |
 | 2026-11-14 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-48-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/4ad8f9c956b8f5ff59462a2b19959fc95e8fc82f) |
