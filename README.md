@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-19 | [Functional Array Methods](javascript-mastery/01-fundamentals/day-53-functional-array-methods/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7172ca81191bae8728f6a2e797133779a17d38e6) |
 | 2026-11-18 | [JavaScript Proxy and Reflect API](javascript-mastery/06-advanced-engineering/day-52-javascript-proxy-reflect-api/01-core.js) | `JavaScript` | `Advanced` | [Commit](https://github.com/divya8050/javascript/commit/f6bdd944f7b9a7339a8aea7e14e642c9d4509d9d) |
 | 2026-11-17 | [Object Iteration and Transformation](javascript-mastery/01-fundamentals/day-51-object-iteration-transformation/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/856f76267c3ced3db4e651be09cf1639605022b4) |
 | 2026-11-16 | [Closures and Private State](javascript-mastery/01-fundamentals/day-50-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/cf01abd568051c1adbdc28eb546ad0f3b0b686e6) |
