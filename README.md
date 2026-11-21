@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-21 | [Classes and Inheritance](javascript-mastery/01-fundamentals/day-55-js-classes-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/bdeabf16246587fdd19e687539845ab734609166) |
 | 2026-11-20 | [Prototypes and Inheritance](javascript-mastery/01-fundamentals/day-54-03-prototypes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/a3ecb8f7b161694fddd4b8301601750f2543776a) |
 | 2026-11-19 | [Functional Array Methods](javascript-mastery/01-fundamentals/day-53-functional-array-methods/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/7172ca81191bae8728f6a2e797133779a17d38e6) |
 | 2026-11-18 | [JavaScript Proxy and Reflect API](javascript-mastery/06-advanced-engineering/day-52-javascript-proxy-reflect-api/01-core.js) | `JavaScript` | `Advanced` | [Commit](https://github.com/divya8050/javascript/commit/f6bdd944f7b9a7339a8aea7e14e642c9d4509d9d) |
