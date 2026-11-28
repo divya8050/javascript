@@ -6,6 +6,7 @@ Personal repository for daily JavaScript practice, algorithmic exercises, design
 
 | Date | Topic / Problem | Language | Difficulty | Link |
 | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-28 | [JavaScript Proxy Objects](javascript-mastery/01-fundamentals/day-62-javascript-proxy-objects/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/f86ccf9c9226d353461f5289ca6b7f2fda14fd9f) |
 | 2026-11-27 | [Error Handling with try-catch-finally](javascript-mastery/01-fundamentals/day-61-error-handling-try-catch-finally/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/12494d34c2b3a9289d4ff1f27939247fb7550f60) |
 | 2026-11-26 | [Classes and Inheritance](javascript-mastery/01-fundamentals/day-60-classes-and-inheritance/01-core.js) | `JavaScript` | `Intermediate` | [Commit](https://github.com/divya8050/javascript/commit/212eb3260fb7aef5f9e3d5f923f86429639c9895) |
 | 2026-11-25 | [Closures and Private State](javascript-mastery/01-fundamentals/day-59-02-closures-and-private-state/01-core.js) | `JavaScript` | `Beginner` | [Commit](https://github.com/divya8050/javascript/commit/bda546115dda87f3b61deacbc31db52e2b635974) |
